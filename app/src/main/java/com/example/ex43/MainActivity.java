@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.btn);
     }
 
-    // method that start when button clicked
     public void clicked(View view) {
         ClickCount++;
         btn.setText("This is a click number:"+ClickCount);
